@@ -1,0 +1,74 @@
+body
+{
+    background-color: #000;
+    color: #dfdfdf;
+    font-size: 26px;
+    font-family: 'Source Code Pro', monospace;
+}
+#container
+{
+    width: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#board
+{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    min-height: 80px;
+}
+#gallows
+{
+    float: left;
+    width: 550px;
+    min-height: 340px;
+    margin-top: -15px;
+}
+#alpha
+{
+    float: left;
+    width: 450px;
+    min-height: 280px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.litera
+{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #dfdfdf;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.litera:hover
+{
+    color: gray;
+    border: 2px solid gray;
+}
+.reset 
+{
+    font-size: 48px;
+    color: green;
+    cursor: pointer;
+}
+.reset:hover
+{
+    color: #fff;
+}
+.reset2
+{
+    font-size: 48px;
+    color: red;
+    cursor: pointer;
+}
+.reset2:hover
+{
+    color: #fff;
+}
